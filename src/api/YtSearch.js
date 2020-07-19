@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const KEY = 'AIzaSyDxGxecQCMsYB1Uo_7MXjMQwRVbJWEzjSs';
+const KEY = '';
 
 
 export const baseParams = {
