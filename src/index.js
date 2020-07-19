@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Quiz from './components/quiz';
+import Dash from './components/dash';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+
+const routing = (
+  <Router>
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/dashboard" component={Dash} />
+      <Route path="/quiz" component={Quiz} />
+    </div>
+  </Router>
+)
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  routing,
   document.getElementById('root')
 );
 

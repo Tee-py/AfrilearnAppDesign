@@ -1,0 +1,17 @@
+
+.c-col:hover {
+    transform: scale(1.025);
+}
+
+.c-col {
+    transition: all 300ms ease-in-out;
+}
+
+.wel{
+    font-size: 35px;
+}
+
+.sel {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}

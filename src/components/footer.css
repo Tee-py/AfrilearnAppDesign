@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgb(1, 23, 43);
+    padding: 2rem;
+}
+
+p {
+    color: white;
+}
+
+strong {
+    color: white; 
+    font-size: 30px; 
+    font-family: 'Pacifico', cursive;
+}
+
+i {
+    font-size: 50px; 
+    color: white; 
+    margin: 1rem;
+}
